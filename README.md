@@ -18,7 +18,6 @@ CArrayMethodsLib provides the following methods:
 -   `fill(int* arr, int size, int value, int start, int end)`: Fills a C array with a specific value within a given range.
 -   `forEach(int* arr, int size, void (*operation)(int*))`: Executes a custom operation on each element of the array.
 -   `sort(int* arr, int start, int end)`: Sorts a portion of the array in ascending order.
--   `splice(int* arr, int size, int index, int replace, int value)`: Inserts or replaces elements in the array at a specific index.
 -   `concat(int *arr1, int *arr2, int size1, int size2)`: Concatenates two arrays into a new array.
 -   `filter(int* arr, int size, int (*operation)(int))`: Creates a new array containing elements that pass a specific condition.
 -   `map(int* arr, int size, int (*operation)(int))`: Creates a new array by applying a custom operation to each element of the original array.
